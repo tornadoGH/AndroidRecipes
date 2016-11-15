@@ -1,4 +1,4 @@
-package com.example.listing2_6;
+package com.example.listing2_7;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,7 +10,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-            requestWindowFeature(Window.FEATURE_NO_TITLE );
+        requestWindowFeature(Window.FEATURE_PROGRESS );
         setContentView(R.layout.activity_main);
+
+        setProgressBarVisibility( true );
+        setProgress( 6000 );
     }
 }

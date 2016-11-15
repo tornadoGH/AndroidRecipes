@@ -1,1 +1,1 @@
-include ':app', ':listing2_5', ':listing2_6'
+include ':app', ':listing2_5', ':listing2_6', ':listing2_7'
